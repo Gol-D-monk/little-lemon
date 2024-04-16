@@ -438,15 +438,16 @@ footer > menu {
   }
 
   .specials-cards {
-    display: none;
+    display:inline;
   }
 
-  .specials-carousel {
-    display: block;
-  }
+  /* .specials-carousel {
+    display:inline ;
+  } */
 
   .menu-card {
     padding-bottom: 2rem;
+    justify-content: center;
   }
 
   .testimonials-topbar > h1 {
@@ -460,6 +461,7 @@ footer > menu {
   .about-us {
     grid-gap: 12vw;
   }
+
 }
 
 @media screen and (max-width: 50rem) {
@@ -471,14 +473,21 @@ footer > menu {
     font-size: 20px;
   }
 
+  /* .action-button {
+    background-color: #f4ce14;
+    padding: 0.5rem .5rem 0.5rem .5rem;
+    border-radius: 0.2rem;
+    font-family: "Karla";
+    font-size: 2rem; */
+
   .testimonials-carousel {
-    display: block;
+    /* display:block; */
     background-color: #edefee;
     padding-bottom: 0;
   }
 
   .testimonials-cards {
-    display: none;
+    display: block;
   }
 
   .testimonial-card > p {
@@ -535,9 +544,15 @@ footer > menu {
     padding: 0 2rem 0 2rem;
   }
 
+  .slider-wrapper {
+    display:block;
+  }
+
   .testimonials {
     padding: 0 2rem 0 2rem;
   }
+
+  
 
   .about-us {
     padding: 1rem 2rem 0 2rem;
